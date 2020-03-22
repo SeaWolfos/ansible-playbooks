@@ -59,7 +59,7 @@
     - name: UFW - Allow SSH connections
       ufw:
         rule: allow
-        port: '1123'
+        port: '1122'
         proto: tcp
 
     - name: UFW - Deny all other incoming traffic by default
